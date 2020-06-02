@@ -23,7 +23,9 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
 
-This formula $f(x) = x^2$ is an example.
+This formula \(a \ne 0\) is an example.
+
+\[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
 
 $$
 \lim_{x\to 0}{\frac{e^x-1}{2x}}
