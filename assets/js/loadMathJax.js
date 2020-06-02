@@ -32,4 +32,4 @@ MathJax.Hub.Config({
   "HTML-CSS": { fonts: ["TeX"] }
 });
 
-loadScript( "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML", true, "" );
+loadScript( "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML", false, "" );
