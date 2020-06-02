@@ -6,7 +6,6 @@ categories:
 tags:
   - Jekyll
   - update
-use_math: true
 ---
 
 You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
@@ -24,6 +23,7 @@ print_hi('Tom')
 ```
 
 This formula \(a \ne 0\) is an example.
+
 This formula $a \ne 0$ is an example.
 
 \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
