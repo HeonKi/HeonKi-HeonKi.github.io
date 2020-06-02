@@ -62,6 +62,10 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+head_scripts:
+  - /assets/js/configMathJax.js
+  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML
+
 author:
   name   : "박헌기"
   avatar : "/assets/images/PlasmaSquare.jpg"
