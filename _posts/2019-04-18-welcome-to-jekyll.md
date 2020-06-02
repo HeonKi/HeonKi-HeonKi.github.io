@@ -24,6 +24,7 @@ print_hi('Tom')
 ```
 
 This formula \(a \ne 0\) is an example.
+This formula \(a \ne 0\) is an example.
 
 \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
 
