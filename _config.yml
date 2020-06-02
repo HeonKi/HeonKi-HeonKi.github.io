@@ -58,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "플라즈마"
+  name   : "박헌기"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "3D Game Developer\nWeb Developer\njavascript"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
