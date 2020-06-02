@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "박헌기"
   avatar : "/assets/images/PlasmaSquare.jpg"
-  bio    : "3D Game Developer   Web Developer   C/C++,DirectX   nodejs,react"
+  bio    : "3D Game Developer<br/>Web Developer<br/>C/C++,DirectX<br/>nodejs,react"
   links:
     - label: "플라즈마학원"
       icon: "fas fa-fw fa-link"
