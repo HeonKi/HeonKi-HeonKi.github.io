@@ -21,4 +21,4 @@ function loadScript(url, bAsync, idScript ) {
   x.appendChild(s);
 }
 
-loadScript( "https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_CHTML", true, "" );
+loadScript( "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML", true, "" );
