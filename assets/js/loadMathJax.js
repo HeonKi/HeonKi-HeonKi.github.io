@@ -33,6 +33,12 @@ var strMathJaxSetting = `MathJax.Hub.Config( {
   displayMath: [ ['$$', '$$'] ],
   processEscapes: true,
 }
+});
+MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+  console.log("Math Processing Error: "+message[1]);
+});
+MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+  console.log("Math Processing Error: "+message[1]);
 });`;
 
 loadScript(
@@ -47,6 +53,6 @@ loadScript(
   'text/javascript',
   "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML",
   "",
-  false,
+  true,
   ""
 );
