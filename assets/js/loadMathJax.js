@@ -21,15 +21,17 @@ function loadScript(url, bAsync, idScript ) {
   x.appendChild(s);
 }
 
-// MathJax.Hub.Config({
-//   extensions: ["tex2jax.js"],
-//   jax: ["input/TeX", "output/HTML-CSS"],
-//   tex2jax: {
-//     inlineMath: [ ['$$','$$'], ["\\(","\\)"] ],
-//     displayMath: [ ['$$$','$$$'], ["\\[","\\]"] ],
-//     processEscapes: true
-//   },
-//   "HTML-CSS": { fonts: ["TeX"] }
-// });
+MathJax.Hub.Config( {
+  TeX: {
+    equationNumbers: {
+      autoNumber: "AMS"
+    }
+  },
+  tex2jax: {
+  inlineMath: [ ['$', '$'] ],
+  displayMath: [ ['$$', '$$'] ],
+  processEscapes: true,
+}
+});
 
 loadScript( "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML", false, "" );

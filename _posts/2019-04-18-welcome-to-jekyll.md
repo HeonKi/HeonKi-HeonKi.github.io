@@ -24,24 +24,22 @@ print_hi('Tom')
 
 This formula \(a \ne 0\) is an example.
 
-1Dolor
-
+1Dolor: 
 This formula $a \ne 0$ is an example.
 
-2Dolor
-
+2Dolor: 
 This formula $$a \ne 0$$ is an example.
 
 \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
 
-2Dolor
+2Dolor: 
 $$
 \lim_{x\to 0}{\frac{e^x-1}{2x}}
 \overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}}
 \lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}}
 $$
 
-3Dolor
+3Dolor: 
 $$$
 \lim_{x\to 0}{\frac{e^x-1}{2x}}
 \overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}}
