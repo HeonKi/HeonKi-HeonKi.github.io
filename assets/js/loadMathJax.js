@@ -29,10 +29,10 @@ var strMathJaxSetting = `MathJax.Hub.Config( {
     }
   },
   tex2jax: {
-  inlineMath: [ ['$', '$'] ],
-  displayMath: [ ['&', '&'] ],
-  processEscapes: true,
-}
+    inlineMath: [ ['$', '$'] ],
+    //displayMath: [ ['&', '&'] ],
+    processEscapes: true,
+  }
 });
 MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
   console.log("Math Processing Error: "+message[1]);
