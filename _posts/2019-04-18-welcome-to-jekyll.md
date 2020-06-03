@@ -33,22 +33,18 @@ This formula $$\displaystyle{ a \ne 0 }$$ is an example.
 \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
 
 1end: 
-&
-\displaystyle{
+&\displaystyle{
 \lim_{x\to 0}{\frac{e^x-1}{2x}}
 \overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}}
 \lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}}
-}
-&
+}&
 
 2end: 
-&&
-\displaystyle{
+&&\displaystyle{
 \lim_{x\to 0}{\frac{e^x-1}{2x}}
 \overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}}
 \lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}}
-}
-&&
+}&&
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
