@@ -30,7 +30,7 @@ var strMathJaxSetting = `MathJax.Hub.Config( {
   },
   tex2jax: {
   inlineMath: [ ['$', '$'] ],
-  displayMath: [ ['$$', '$$'] ],
+  displayMath: [ ['&', '&'] ],
   processEscapes: true,
 }
 });
