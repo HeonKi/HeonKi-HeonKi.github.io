@@ -11,17 +11,18 @@
 // loadScript( "https://polyfill.io/v3/polyfill.min.js?features=es6", false, "" );
 // loadScript( "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js", false, "MathJax-script" );
 
-function loadScript(url, bAsync, idScript ) {
+function loadScript( strType, strSrc, strInnderHTML,  bAsync, idScript ) {
   var s = document.createElement('script');
-  s.type = 'text/javascript';
-  s.async = bAsync;
-  s.src = url;
+  s.type = strType;
+  if ( strSrc !== "" ) s.src = strSrc;
+  if ( strInnderHTML !== "" ) s.innerHTML = strInnderHTML;
+  if ( bAsync ) s.async = true;
   if ( idScript !== "" ) s.id = idScript;
   var x = document.getElementsByTagName('head')[0];
   x.appendChild(s);
 }
 
-MathJax.Hub.Config( {
+var strMathJaxSetting = `MathJax.Hub.Config( {
   TeX: {
     equationNumbers: {
       autoNumber: "AMS"
@@ -32,6 +33,20 @@ MathJax.Hub.Config( {
   displayMath: [ ['$$', '$$'] ],
   processEscapes: true,
 }
-});
+});`;
 
-loadScript( "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML", false, "" );
+loadScript(
+  "text/x-mathjax-config",
+  "",
+  strMathJaxSetting,
+  false,
+  ""
+);
+
+loadScript(
+  'text/javascript',
+  "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML",
+  "",
+  false,
+  ""
+);
