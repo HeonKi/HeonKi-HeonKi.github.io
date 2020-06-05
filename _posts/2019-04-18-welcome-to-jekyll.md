@@ -22,6 +22,8 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
 
+![attach1](p_Bin.jpg){: width="400" height="200"}
+
 소금과 H<sub>2</sub>O를 섞으면 소금물이 됩니다.
 
 수학에서 3<sup>2</sup>는 9와 같습니다.
